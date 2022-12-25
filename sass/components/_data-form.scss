@@ -1,6 +1,5 @@
 .data-form {
   width: 90%;
-  // @include size(90%, 90%);
   margin: auto;
   @media screen and(min-width:320px) {
     padding: 40px 0;
@@ -22,9 +21,7 @@
   }
   @media screen and(min-width:320px) {
     @include font(700, 16px, 1.15, 0.03em);
-    // width: 210px;
-    // margin-left: 25px;
-    // margin-bottom: 8px;
+    
   }
 
   @media screen and(min-width:480px) {

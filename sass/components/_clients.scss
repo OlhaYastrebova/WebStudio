@@ -42,9 +42,7 @@
     margin-bottom: 30px;
     margin-left: 15px;
 
-    // flex-basis: calc(100% / 2 - 30px);
-
-    @media screen and(min-width:320px) {
+     @media screen and(min-width:320px) {
       margin-left: 15px;
       margin-bottom: 15px;
       flex-basis: calc(100% / 2 - 15px);
@@ -97,43 +95,3 @@
   }
 }
 
-// .clients {
-//   &__list {
-//     display: flex;
-//   }
-//   &__list {
-//     .client {
-//       + .client {
-//         margin-left: 30px;
-//       }
-//     }
-//   }
-// }
-
-// .client {
-//   &__link {
-//     @extend %flexible;
-
-//     @include size(170px, 92px);
-
-//     @include border($color-icon, 4%);
-
-//     fill: $color-icon;
-
-//     @extend %transition-bc-fill;
-
-//     &:hover,
-//     &:focus {
-//       border-color: $accent-color;
-//       fill: $accent-color;
-//     }
-//   }
-// }
-
-// .client {
-//   &__icon {
-//     @extend %flexible;
-
-//     @include size(106px, 60px);
-//   }
-// }

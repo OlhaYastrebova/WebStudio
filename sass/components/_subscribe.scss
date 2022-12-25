@@ -44,17 +44,15 @@
   }
   &__icon {
     @include size(24px, 24px);
-
-    fill: $primary-white;
+    margin-left: 10px;
+        fill: $primary-white;
     &--after {
-      margin-left: 10px;
       vertical-align: middle;
     }
-    @media screen and(min-width:1200px) {
-      margin: 0;
+    
     }
   }
-}
+
 
 .subscribe-form {
   &__input {
