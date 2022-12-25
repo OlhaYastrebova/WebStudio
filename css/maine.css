@@ -1102,7 +1102,6 @@ body {
 @media screen and (min-width: 1200px) {
   .address-wrapper {
     margin-left: 0;
-    margin-right: 70px;
     text-align: left;
     margin-bottom: 0;
   }
