@@ -237,6 +237,7 @@ body {
 @media screen and (min-width: 1200px) {
   .page-footer__logo {
     margin-bottom: 20px;
+    text-align: left;
   }
 }
 
@@ -1104,6 +1105,7 @@ body {
     margin-left: 0;
     text-align: left;
     margin-bottom: 0;
+    margin-right: 70px;
   }
 }
 
