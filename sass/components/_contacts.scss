@@ -5,7 +5,7 @@
     @media screen and(min-width:768px) {
       display: flex;
       flex-direction: column;
-       @include font(500, 14px, 1.142, 0.02em);
+       @include font(500, 12px, 1.17, 0.02em);
     }
 .contacts {
       &__item {

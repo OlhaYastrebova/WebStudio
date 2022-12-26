@@ -16,7 +16,7 @@
 .join {
   &__subtitle {
     @include font(700, 14px, 1.142, 0.03em);
-    text-align: center;
+    
     color: $primary-white;
     margin-bottom: 20px;
   }
